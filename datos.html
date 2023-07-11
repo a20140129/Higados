@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1rem;
+            width: calc(100% - 10rem);
+            max-width: 1000px;
+            margin: 0px auto;
+            display: flex;
+            color: #C9C6E6;
+            background-color: #141123;
+            border-radius: 5px;
+            box-shadow: #332A58 8px 8px 0px, #3D3269 16px 16px 0px;
+            border: 0.125rem solid #7465b7;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .button {
+            align-items: center;
+            background: radial-gradient(100% 100% at 100% 0%, #7465b7 0%, #342B5A 100%);
+            border-radius: 7px;
+            box-shadow: #2D234166 0 2px 4px, #2D23424D 0 7px 13px -3px, #3A416F80 0 -3px 0 inset;
+            box-sizing: border-box;
+            color: #C9C6E6;
+            cursor: pointer;
+            display: inline-flex;
+            height: 50px;
+            line-height: 1;
+            font-family: system-ui;
+            justify-content: center;
+            overflow: hidden;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow .1s, transform .1s;
+            white-space: nowrap;
+            font-size: 18px;
+        }
+
+        .button:focus {
+            box-shadow: #4A4175 0 0 0 1.5px inset, #2D234266 0 2px 4px, #2D23424D 0 7px 13px -3px, #4A4175 0 -3px 0 inset; 
+        }
+
+        .button:hover {
+            box-shadow: #2D234266 0 4px 8px, #2D23424D 0 7px 13px -3px, #4A4175 0 -3px 0 inset;
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            box-shadow: #0A0811 0 3px 7px inset;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body bgcolor="#625580">
+    <div class="intro">
+        <img style="height: 18.75rem; width: 18.75rem; object-fit: cover" src="pfp.png">
+        <div style="width: 100%; display: flex; flex-direction: column; padding: 1.5rem; gap: 1.5rem; overflow-x: hidden">
+            <h1 style="color: #E966A0; text-shadow: 0px 1px 10px #E966A0; text-align: center; font-family: system-ui; margin: 0px; white-space: nowrap; text-overflow: ellipsis">Info</h1>
+            <div style="display: flex; justify-content: center; align-items: flex-end">
+                <div style="display: inline-block; width: calc(80%); text-align: center">
+                    <h3 style="color: #C9C6E6; font-family: Courier New; font-size: 1.25rem">Lixue Chui<br>2do B<br>Profesor de Informática: CORDOVA CORNEJO, Carlos Alfredo<br>Profesora de Ciencia y Tecnología: JAYO CORDOVA, Noemi Rosario</h3>
+                    <a href="right.html" class="button">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
